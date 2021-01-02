@@ -36,13 +36,4 @@ Clone the repo and run `make install`.
    ```bash
    swift_string_obfuscator -s ${PROJECT_DIR}/SampleApp/API.swift -t ${PROJECT_DIR}/SampleApp/API.swift
    
-   ```
-
-   
-
-   ```bash
-   swift_string_obfuscator -s ${PROJECT_DIR}/SampleApp/API.swift -t ${PROJECT_DIR}/SampleApp/API.swift
-   
-   ```
-
-   
+   ```   
