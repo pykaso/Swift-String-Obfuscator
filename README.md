@@ -2,19 +2,18 @@
 
 Are You storing more or less sensitive strings like API keys directly in the application code? For exaple like this:
 
-<img src="/Users/pykaso/sources/SwiftStringObfuscator/github/string_in_app.png" style="zoom:67%;" />
-
+![String stored in app](/github/string_in_app.png)
 
 
 Do You know that's relatively easy for anyone to disassemble the application and get these strings?
 
-![](/Users/pykaso/sources/SwiftStringObfuscator/github/decompiled_string.png)
+![decompiled_string](/github/decompiled_string.png)
 
 
 
 This utility convert strings annotated with a comment `//:obfuscate` into byte arrays and make them more complicated to find in disassembled code. It's not a bulletproof solution but it's better than leaving them readable at first sight.
 
-![](/Users/pykaso/sources/SwiftStringObfuscator/github/string_obfuscated.png)
+![string_obfuscated](/github/string_obfuscated.png)
 
 
 
